@@ -17,7 +17,7 @@ h1 {
     font-size: 3em;
     font-weight: 200;
     color: white;
-    text-shadow: 2px 2px 1px #484747;
+    text-shadow: 2px 2px 1px #383535;
 }
 
 .tagline a{
@@ -27,22 +27,22 @@ h1 {
 }
 
 .toc ol{
-    background-color: #7b7979;
+    background-color: #4b4b4b;
     padding: 1em 0;
     border-radius: .5ex;
 }
 
 .toc ol li{
     list-style-position: inside;
-    color: black;
+    color: white;
     margin-left: 2em;
 }
 
 .toc ol li a{
     font-size: 80%;
-    color: black;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 700;
+    text-shadow: 2px 2px 1px #383535;
 }
 
 #container {
