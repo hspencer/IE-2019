@@ -1,23 +1,25 @@
-/* General Styles */
+/* Estilos Generales  ~ @hspencer */
 
 @import url('https://fonts.googleapis.com/css?family=Hepta+Slab:200,400,700,900&display=swap');
 
-:root {
-  --spacer: 32px; 
-}
-
-body{
+body {
     font-family: 'Hepta Slab', serif;
     background-image: linear-gradient(#848181, #403e3b);
     color: #dddece;
     margin: 0;
 }
 
-a{
+a {
     color: white;
 }
 
-#container{
+h1 {
+    font-size: 5em;
+    font-weight: 200;
+    color: white;
+}
+
+#container {
     margin: 3em auto;
     width: 70%;
     max-width: 600px;
