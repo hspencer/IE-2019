@@ -8,7 +8,8 @@ let levels;
 
 
 function setup() {
-  createCanvas(700, 700);
+  let s = createCanvas(700, 700);
+  s.parent("wrap");
   noStroke();
   levels = 1;
 }
