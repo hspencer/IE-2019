@@ -2,14 +2,15 @@ let posX = [];
 let posY = [];
 let rot = [];
 
-let m = 50;
+let m = 15;
 
 function setup() {
-  createCanvas(800, 500);
+  let s = createCanvas(800, 500);
+  s.parent("wrap");
   strokeWeight(2);
   stroke(0, 50);
 
-  for (let i = 0; i < 500; i++) {
+  for (let i = 0; i < 10000; i++) {
     posX.push(random(m, width - m));
     posY.push(random(m, height - m));
     rot.push(random(TWO_PI));
@@ -22,12 +23,9 @@ function draw() {
   for (let i = 0; i < posX.length; i++) {
 
     push();
-
     translate(posX[i], posY[i]);
-
     rotate(rot[i]);
-    line(-20, 0, 20, 0);
-
+    line(-m, 0, m, 0);
     pop();
 
      if(mouseIsPressed){
