@@ -1,8 +1,8 @@
 /* Noise Machine */
 
 
-let nm = [];
-let num = 15;
+let nm;
+let num = 9;
 
 function setup() {
   createCanvas(displayWidth, displayHeight);
@@ -28,6 +28,7 @@ function randomColor() {
 }
 
 function regen() {
+  nm = [];
   let x, y, w, l, z, a;
 
   for (let i = 0; i < num; i++) {
@@ -42,6 +43,5 @@ function regen() {
 }
 
 function keyTyped() {
-  nm.clear();
   regen();
 }
