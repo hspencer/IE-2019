@@ -9,7 +9,7 @@ let sliderNoiseAmp, sliderNoiseZoom;
 let sliderTime;
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(600, 600);
   sliderTurns = createSlider(1, 60, 38, 1);
   sliderRes = createSlider(0.005, HALF_PI, 0.01, 0.001);
   sliderNoiseAmp = createSlider(1, 50, 44.7, 0.1);
@@ -17,11 +17,12 @@ function setup() {
   sliderTime = createSlider(1, 100000, 11241, 10);
   noFill();
   noiseSeed(round(random(99999)));
+  stroke(250);
 }
 
 function draw() {
-  background(250);
-  spiral(width / 2, height / 2, 390);
+  background("dimgray");
+  spiral(width / 2, height / 2, 490);
 }
 
 function spiral(x, y, d) {
