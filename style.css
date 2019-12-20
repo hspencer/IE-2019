@@ -4,18 +4,18 @@
 
 body {
     font-family: 'Hepta Slab', serif;
-    background-image: linear-gradient(#848181, #403e3b);
-    color: #ebebe7;
+    background-image: linear-gradient(#fafafa, #f7efe3);
+    color: #2e271c;
     margin: 0;
 }
 
 a {
-    color: orange;
+    color: #2d88ff;
 }
 
 p {
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 1.6em;
     /* word-break: break-all; */
     text-align: justify;
     -webkit-hyphens: auto;
@@ -28,11 +28,10 @@ ul, ol{
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3.4em;
     line-height: 1em;
     font-weight: 200;
-    color: white;
-    text-shadow: 2px 2px 1px #383535;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.1);
     
 }
 
@@ -42,28 +41,24 @@ h2, h3, h4{
 
 .tagline a {
     text-decoration: none;
-    color: white;
     font-weight: 700;
     font-size: 30%;
 }
 
 .toc ol {
-    background-color: #4b4b4b;
+    background-color:rgba(0, 0, 0, .06);
     padding: 1em 0;
     border-radius: .5ex;
 }
 
 .toc ol li {
     list-style-position: inside;
-    color: white;
     margin-left: 2em;
 }
 
 .toc ol li a {
-    font-size: 80%;
     text-decoration: none;
     font-weight: 700;
-    text-shadow: 2px 2px 1px #383535;
 }
 
 #container {
@@ -75,7 +70,7 @@ h2, h3, h4{
 
 footer {
     text-align: center;
-    background-color: black;
+    background-color: rgb(219, 205, 184);
     font-size: 10px;
     padding: 2em;
 }
